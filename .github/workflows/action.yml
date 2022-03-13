@@ -19,7 +19,7 @@ jobs:
             serverchan_key: SERVERCHAN_KEY
     steps:
       - name: Working
-        uses: Long0x0/zju-ncov-hitcarder@master
+        uses: PengyangZhou/zju-ncov-hitcarder@master
         with:
           username: ${{ secrets[matrix.username] }}
           password: ${{ secrets[matrix.password] }}
